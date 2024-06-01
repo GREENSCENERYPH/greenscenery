@@ -1,0 +1,25 @@
+{
+    "testimonials": [
+      {
+        "name": "Naomi",
+        "business": "Farm Owner",
+        "image": "../assets/images/noemi.jpeg",
+        "testimonial": "Est inventore laborum a ducimus impedit ex perferendis.",
+        "rating": 5
+      },
+      {
+        "name": "Jaella",
+        "business": "Farm Owner",
+        "image": "../assets/images/noemi.jpeg",
+        "testimonial": "Est inventore laborum a ducimus impedit ex perferendis.",
+        "rating": 5
+      },
+      {
+        "name": "Athena",
+        "business": "Farm Owner",
+        "image": "../assets/images/noemi.jpeg",
+        "testimonial": "Est inventore laborum a ducimus impedit ex perferendis.",
+        "rating": 5
+      }
+    ]
+  }

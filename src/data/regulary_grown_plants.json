@@ -1,0 +1,123 @@
+{
+  "products": [
+    {
+      "name": "Foxtail",
+      "image": "../assets/images/1. Foxtail.jpg",
+      "description": "Lorem ipsum sit amet.",
+      "price": 399,
+      "type": "month",
+      "categories": ["Plant", "Flower"]
+    },
+    {
+      "name": "Black Prince Rubber Plant",
+      "image": "../assets/images/2. Black Prince Rubber Plant.jpg",
+      "description": "",
+      "price": 1995,
+      "categories": ["Plant", "Flower"]
+    },
+    {
+      "name": "Yellowpandan",
+      "image": "../assets/images/3. Yellowpandan.jpg",
+      "description": "",
+      "price": 5799,
+      "categories": ["Plant", "Tree"]
+    },
+    {
+      "name": "Licuala-Small",
+      "image": "../assets/images/4. Licuala-Small.jpg",
+      "description": "",
+      "price": 5799,
+      "categories": ["Plant", "Tree"]
+    },
+    {
+      "name": "Puyeng Ang Heng Ho",
+      "image": "../assets/images/5. Puyeng Ang Heng Ho.jpg",
+      "description": "",
+      "price": 5799,
+      "categories": ["Plant", "Tree"]
+    },
+    {
+      "name": "Licuala-Big",
+      "image": "../assets/images/6. Licuala-Big.jpg",
+      "description": "",
+      "price": 5799,
+      "categories": ["Plant", "Tree"]
+    },
+    {
+      "name": "Snow White_ Aglaonema Costatum",
+      "image": "../assets/images/7. Snow White_ Aglaonema Costatum.jpg",
+      "description": "",
+      "price": 5799,
+      "categories": ["Plant", "Tree"]
+    },
+    {
+      "name": "Rhapis (Miniature)",
+      "image": "../assets/images/8. Rhapis (Miniature).jpg",
+      "description": "",
+      "price": 5799,
+      "categories": ["Plant", "Tree"]
+    },
+    {
+      "name": "True Birds of Paradise",
+      "image": "../assets/images/9. True Birds of Paradise.jpg",
+      "description": "",
+      "price": 5799,
+      "categories": ["Plant", "Tree"]
+    },
+    {
+      "name": "Palmera",
+      "image": "../assets/images/11. Palmera .jpg",
+      "description": "",
+      "price": 5799,
+      "categories": ["Plant", "Tree"]
+    }
+    ,
+    {
+      "name": "Cobra Fern_ Asplenium Nidus",
+      "image": "../assets/images/12. Cobra Fern_ Asplenium Nidus.jpg",
+      "description": "",
+      "price": 5799,
+      "categories": ["Plant", "Tree"]
+    }
+    ,
+    {
+      "name": "Blue Cypress",
+      "image": "../assets/images/13. Blue Cypress.jpg",
+      "description": "",
+      "price": 5799,
+      "categories": ["Plant", "Tree"]
+    }
+    ,
+    {
+      "name": " Italian Cypress (Large)",
+      "image": "../assets/images/14. Italian Cypress (Large).jpg",
+      "description": "",
+      "price": 5799,
+      "categories": ["Plant", "Tree"]
+    }
+    ,
+    {
+      "name": "Silver Satin_ Scindapsus pictus 'Exotic",
+      "image": "../assets/images/15. Silver Satin_ Scindapsus pictus 'Exotic.jpg",
+      "description": "",
+      "price": 5799,
+      "categories": ["Plant", "Tree"]
+    }
+    ,
+    {
+      "name": "Italian Cypress (Small)",
+      "image": "../assets/images/16. Italian Cypress (Small).jpg",
+      "description": "",
+      "price": 5799,
+      "categories": ["Plant", "Tree"]
+    }
+    ,
+    {
+      "name": "Rubber Tree",
+      "image": "../assets/images/17. Rubber Tree.jpg",
+      "description": "",
+      "price": 5799,
+      "categories": ["Plant", "Tree"]
+    }
+  ]
+}

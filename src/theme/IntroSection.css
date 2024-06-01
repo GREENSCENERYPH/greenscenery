@@ -1,0 +1,86 @@
+/* INTRO SECTION CSS */
+
+.hero-banner {
+  display: flex;
+  justify-content: center; /* horizontally center */
+  align-items: center; /* vertically center */
+}
+
+.header-title{
+  color: #fff;
+  text-align: center;
+}
+
+.content {
+  position: absolute;
+  padding: 0 !important;
+}
+
+.banner-content {
+  text-align: center;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+  padding: 0 200px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.banner-title {
+  font-size: 68px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 2.5s ease-in-out;
+}
+
+.banner-subtitle {
+  margin-top: 50px;
+  font-size: 28px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.gradient-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(245deg, rgb(87, 92, 83) 0%, rgb(69, 68, 68) 100%);
+  opacity: 0.8;
+  z-index: -1;
+}
+.video-background {
+  width: 100%;
+  object-fit: cover;
+  max-height: 460px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 350px) and (max-width: 767px) { 
+  .banner-content {
+    padding: 20px;
+  }
+  .banner-title {
+    font-size: 22px;
+  }
+  .banner-subtitle {
+    font-size: 16px;
+  }
+}

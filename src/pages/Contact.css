@@ -1,0 +1,36 @@
+.ion-padding {
+  padding: 16px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.input-field {
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.width-full {
+  width: 100%;
+}
+
+.contact-header-img {
+  background-image: url("../assets/images/contact_us_header.jpg");
+  background-size: cover;
+  background-position-y: center;
+  height: 390px;
+  width: 100%;
+}
+
+@media (min-width: 350px) and (max-width: 767px) {
+  .contact-header-img {
+    height: 280px;
+  }
+}

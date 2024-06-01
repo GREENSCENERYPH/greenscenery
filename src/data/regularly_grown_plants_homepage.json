@@ -1,0 +1,63 @@
+{
+    "products": [
+      {
+        "name": "Araucaria",
+        "image": "../assets/images/cultivations/1. Araucaria.jpg",
+        "description": "Est inventore laborum a ducimus impedit ex perferendis.",
+        "price": 399,
+        "type": "month",
+        "categories": ["Plant", "Flower"]
+      },
+      {
+        "name": "Traveller’s Palm- Single Stem",
+        "image": "../assets/images/cultivations/2. Traveller’s Palm-SINGLESTEM.jpg",
+        "description": "Est inventore laborum a ducimus impedit ex perferendis.",
+        "price": 1995,
+        "categories": ["Plant", "Flower"]
+      },
+      {
+        "name": "Traveller’s Palm- Multiple Stem",
+        "image": "../assets/images/cultivations/3. Traveller’s Palm- Multiple Stem.jpg",
+        "description": "Est inventore laborum a ducimus impedit ex perferendis.",
+        "price": 5799,
+        "categories": ["Plant", "Tree"]
+      },
+      {
+        "name": "Miniature palmera",
+        "image": "../assets/images/cultivations/4. Miniature palmera---familyofarecca.jpg",
+        "description": "Est inventore laborum a ducimus impedit ex perferendis.",
+        "price": 399,
+        "type": "month",
+        "categories": ["Plant", "Flower"]
+      },
+      {
+        "name": "Licuala",
+        "image": "../assets/images/cultivations/10. Licuala.jpg",
+        "description": "Est inventore laborum a ducimus impedit ex perferendis.",
+        "price": 5799,
+        "categories": ["Plant", "Tree"]
+      },
+      {
+        "name": "Palmera",
+        "image": "../assets/images/cultivations/16. Palmera.jpg",
+        "description": "Est inventore laborum a ducimus impedit ex perferendis.",
+        "price": 5799,
+        "categories": ["Plant", "Tree"]
+      },
+      {
+        "name": "Fiddle Leaf (Lirata)-SingleStem",
+        "image": "../assets/images/cultivations/12. Fiddle Leaf (Lirata)-SingleStem.jpg",
+        "description": "Est inventore laborum a ducimus impedit ex perferendis.",
+        "price": 5799,
+        "categories": ["Plant", "Tree"]
+      },
+      {
+        "name": "Fiddle Leaf (Lirata)-MultipleStem",
+        "image": "../assets/images/cultivations/13. Fiddle Leaf (Lirata)-MultipleStem.jpg",
+        "description": "Est inventore laborum a ducimus impedit ex perferendis.",
+        "price": 5799,
+        "categories": ["Plant", "Tree"]
+      }
+    ]
+  }
+  

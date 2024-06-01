@@ -1,0 +1,14 @@
+.whatsgrowing-banner {
+    background-image: url("../assets/images/Whatsgrowing.jpg");
+    background-size: cover;
+    background-position-y: center;
+    height: 350px;
+    width: 100%;
+}
+
+ @media (min-width: 350px) and (max-width: 767px) { 
+    .whatsgrowing-img-1 {
+        height: 380px;
+        margin: 0;
+    }
+ }

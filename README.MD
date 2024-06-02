@@ -1,5 +1,5 @@
 # GreenScenery
-- git clone [xxxx](https://github.com/andersonbond/greenscenery.git)
+- git clone https://github.com/andersonbond/greenscenery.git
 - download npm
 - download nvm
 - download node v16

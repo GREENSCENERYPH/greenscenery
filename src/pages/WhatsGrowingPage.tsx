@@ -33,7 +33,7 @@ const WhatsGrowingPage: React.FC = () => {
                 </IonRow>
             </IonGrid>
             <WhatsGrowing />
-            <ProductComponent />
+       
             <FooterSection />
         </IonContent>
       </IonPage>

@@ -4,14 +4,14 @@ import { IonContent, IonHeader, IonPage, IonToolbar, IonIcon} from '@ionic/react
 import Navigation from '../components/TopNavigation';
 import IntroSection from '../components/IntroSection';
 import ProductSection from '../components/ProductionSection';
-import ProductComponent from '../components/ProductComponent'; // for businesses that need products with filter
-import TestimonialSection from '../components/TestimonialSection';
+import ProductComponent from '../components/ProductComponent'; 
+
 import BusinessProcessSection from '../components/BusinessProcessSection';
 import MapSection from '../components/MapSection';
 import FooterSection from '../components/FooterSection';
 import './Home.css';
 
-import { arrowUpCircleOutline } from 'ionicons/icons';
+import { arrowUpCircleOutline, arrowForwardCircle } from 'ionicons/icons';
 
 const Home: React.FC = () => {
 
@@ -65,19 +65,29 @@ const Home: React.FC = () => {
             <Navigation/>
             <IntroSection />
             <ProductSection />
-            <ProductComponent/>
+
+            {/* Product Component */}
+              <ProductComponent/>
+                <div className='mt-20 text-center'>
+                  <a href='/WhatsGrowing'>
+                      <button className="cta-button" type="submit">
+                          More Collections <IonIcon icon={arrowForwardCircle} />
+                      </button>
+                  </a>
+                </div>
+            {/* Product Component */}
+
             <BusinessProcessSection/>
-            
             <MapSection/>
             <FooterSection />
 
-            {showScrollButton && (
+            {/* {showScrollButton && (
               <div className="scroll-to-top">
                   <button onClick={scrollToTop}>
                     <IonIcon icon={arrowUpCircleOutline} />
                   </button>
               </div>
-            )}
+            )} */}
 
         </IonContent>
       </IonPage>

@@ -1,9 +1,22 @@
-import { IonGrid, IonRow, IonCol, IonIcon } from '@ionic/react';
+
+import React, { useState } from 'react';
+import { IonGrid, IonRow, IonCol, IonIcon, IonButton } from '@ionic/react';
 import { logoFacebook, logoInstagram } from 'ionicons/icons';
+import PrivacyPolicy from './PrivacyPolicy';
 
 interface ContainerProps { }
 
 const FooterSection: React.FC<ContainerProps> = () => {
+const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <div className='footer-bg'> 
          <div className="wave"></div>
@@ -39,7 +52,7 @@ const FooterSection: React.FC<ContainerProps> = () => {
                     <h5>Follow Us!</h5>
                     <div className='display-flex'>
                         <div>
-                            <a className='fs-32 mr-8' href='https://fb.com/greensceneryph' target='_blank'><IonIcon slot="end" icon={logoFacebook}/></a>
+                            <a className='fs-32 mr-8' href='https://facebook.com/greenscenerynursery' target='_blank'><IonIcon slot="end" icon={logoFacebook}/></a>
                         </div>
                         <div>
                             <a className='fs-32' href="https://www.instagram.com/greensceneryph/" target='_blank'><IonIcon slot="end" icon={logoInstagram}/></a>
@@ -51,7 +64,13 @@ const FooterSection: React.FC<ContainerProps> = () => {
                 <IonCol>
                     <div className='text-center'>
                         <div className='spacer-50'/>
-                        <span className='copyright'>© 2024 Green Scenery. All rights reserved.</span>
+                        <div className='display-flex justify-center align-center '>
+                            <div className='copyright'>© 2024 Green Scenery. All rights reserved |</div>
+                            <div className='privacy-policy'>
+                                <IonButton className='privacy-policy-btn' onClick={openModal} fill="clear">Privacy Policy</IonButton>
+                            </div>
+                            <PrivacyPolicy isOpen={isModalOpen} onClose={closeModal} />
+                        </div>
                     </div>
                 </IonCol>
             </IonRow>

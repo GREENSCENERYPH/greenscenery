@@ -6,7 +6,7 @@ interface ContainerProps { }
 
 const BusinessProcessSection: React.FC<ContainerProps> = () => {
   return (
-    <div className="process-section">
+    <div className="process-section mt-68">
         <IonGrid className='process-grid bg-white' id='process'>
             <IonRow>
                 <IonCol size-lg="5" size-md="5" size-sm="12" size-xs="12">

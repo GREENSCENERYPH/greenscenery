@@ -36,6 +36,7 @@ const WhatsGrowing = () => {
                   <IonCardTitle>{product.name}</IonCardTitle>
                 </IonCardHeader>
                 <IonCardContent>
+                  <p className="italic">{product.description}</p>
                 </IonCardContent>
               </IonCard>
             </IonCol>

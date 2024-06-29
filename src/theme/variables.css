@@ -145,11 +145,20 @@ p {
 .display-flex {
   display: flex;
 }
+.align-center {
+  align-items: center;
+}
 .justify-center {
   justify-content: center;
 }
 .justify-evenly {
   justify-content: space-evenly;
+}
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
 }
 .max-width-260 {
    max-width: 260px;
@@ -172,8 +181,18 @@ p {
 .header-md::after {
   background-image: unset !important;
 }
-.copyright {
+.copyright, .privacy-policy {
   color: #989898;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.privacy-policy-btn {
+  color: #989898;
+  padding: 0;
+  font-size: 13px;
+}
+.privacy-policy-btn button-native {
+  padding: 0;
 }
 .ratings ion-icon {
     color:rgb(246, 211, 101);
@@ -213,6 +232,9 @@ p {
 .italic {
   font-style: italic;
 }
+.clear-bg {
+  background-color: transparent;
+}
 /* NAVIGATION */
 .top-navigation-section {
   position: relative;
@@ -238,6 +260,15 @@ p {
 .top-menu div a {
   text-decoration: none;
   color: #575C53;
+}
+
+.top-menu a {
+  text-decoration: none;
+  color: black; /* Or whatever color you prefer */
+}
+
+.top-menu a.active {
+  border-bottom: 2px solid #ccdec3; /* Underline color and thickness */
 }
 
 /* NAVIGATION */
@@ -279,9 +310,7 @@ COLOR THEME
 .bold {
   font-weight: bolder;
 }
-.copyright {
-  opacity: 0.7;
-}
+
 /* 
 END COLOR THEME
 */
@@ -433,12 +462,9 @@ h1, h2, h3, h4, h5, h6, .banner-title {
 
 /* IPHONE SIZE */
 @media (min-width: 350px) and (max-width: 767px) {
-  .header-ios ion-toolbar:last-of-type {
+  /* .header-ios ion-toolbar:last-of-type {
     text-align: center;
-  }
-  .store-open {
-    display: none;
-  }
+  } */
   .video-background {
     max-height: 560px;
   }
@@ -489,6 +515,10 @@ h1, h2, h3, h4, h5, h6, .banner-title {
     margin: 30px 0;
     display: flex;
     justify-content: center;
+  }
+  .copyright, .privacy-policy-btn {
+    font-size: 13px;
+    margin: 0;
   }
 
   .top-navigation {

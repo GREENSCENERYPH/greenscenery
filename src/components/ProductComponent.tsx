@@ -1,5 +1,5 @@
 import React, { useState, ReactNode } from 'react';
-import { IonGrid, IonRow, IonCol, IonCard, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCardContent, IonImg, IonSelect, IonSelectOption, IonChip} from '@ionic/react';
+import { IonGrid, IonRow, IonCol, IonCard, IonCardHeader, IonCardTitle, IonCardContent, IonImg, IonIcon} from '@ionic/react';
 import productData from '../data/regularly_grown_plants_homepage.json';
 import '../theme/ProductComponent.css';
 

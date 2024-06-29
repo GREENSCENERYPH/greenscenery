@@ -108,7 +108,7 @@ const Faq: React.FC = () => {
                               Do you sell individual plants?
                             </p>
                             <p>
-                              No, we offer wholesale pricing for bulk orders. The minimum number of plants varies depending on the plant type and size. Please see our catalog for more information and pricing details. Additionally, feel free to visit our store for purchasing plants in smaller quantities.
+                              We only accept online orders for bulk quantities. The minimum number of plants varies depending on the type and size. Please refer to our catalog for more information and pricing details. Additionally, for individual plants, feel free to visit our store to purchase plants in smaller quantities.
                             </p>
                           </div>
                           <div className='pad-10'>

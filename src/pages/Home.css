@@ -98,5 +98,14 @@ background-color: #0056b3;
     .footer-trees {
         right: 50px;
     }
+    .wave:before {
+        height: 100px;
+        right: -40%;
+    }
+    .wave:after {
+        height: 82px;
+        left: -25%;
+        top: -36px;
+    }
  }
  

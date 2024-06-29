@@ -26,7 +26,7 @@ PRODUCTS
   }
 }
 .product-image {
-  height: 438px; 
+  height: 458px; 
   object-fit: cover;
 }
 .product-categories {
@@ -41,6 +41,6 @@ END PRODUCTS
 
 @media (min-width: 350px) and (max-width: 767px) {  
   .product-image {
-    height: 298px;
+    height: 478px;
   }
 }

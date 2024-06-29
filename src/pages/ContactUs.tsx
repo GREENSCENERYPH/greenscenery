@@ -35,7 +35,7 @@ const ContactUs: React.FC = () => {
       };
 
     // Send the form data using EmailJS
-    emailjs.send('service_mst9qjs', 'template_7w27u0i', formData, 'G_aTUlLso8QYDq2ry')
+    emailjs.send('service_625g8gz', 'template_7w27u0i', formData, 'G_aTUlLso8QYDq2ry')
     .then((response) => {
         console.log('Email sent successfully!', response.text);
     })
@@ -118,7 +118,7 @@ const ContactUs: React.FC = () => {
                                     {errors.message && <span>This field is required</span>}
                                 </div>
                                 <div className='mt-20'>
-                                    <ReCAPTCHA sitekey="6LcegekmAAAAAJKy_D8rU8DAr0JKNTP8CHTO4_Ep" onChange={onCaptchaChange} />
+                                    <ReCAPTCHA sitekey="6Lep_fcpAAAAAJ2RXhpfW1bncp1nWcvweGZG1hKf" onChange={onCaptchaChange} />
                                 </div>
                                 <div className='mt-20'>
                                     <button className="cta-button width-full" type="submit">

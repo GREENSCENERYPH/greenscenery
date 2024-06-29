@@ -134,6 +134,13 @@
         "description": "Yucca- Multiple Stem Dracaena Arborea",
         "price": 5799,
         "categories": ["Plant", "Tree"]
+      },
+          {
+        "name": "Cobra Fern",
+        "image": "../assets/images/cultivations/CobraFern.jpg",
+        "description": "Asplenium Nidus",
+        "price": 5799,
+        "categories": ["Plant", "Tree"]
       }
     ]
   }

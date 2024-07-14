@@ -100,7 +100,7 @@ const Faq: React.FC = () => {
                               Can we visit your nursery and store?
                             </p>
                             <p>
-                              Please visit our retail store to see first hand the plants we grow in our nursery at Bulacan. We are located at , you can visit our store. We are located at Green Scenery Nursery, Katipunan Ave, Quezon City, 1110 Metro Manila, Philippines.
+                              Please visit our retail store to see first hand the plants we grow in our nursery at Bulacan. We are located at Green Scenery Nursery, Katipunan Ave, Quezon City, 1110 Metro Manila, Philippines.
                             </p>
                           </div>
                           <div className='pad-10'>

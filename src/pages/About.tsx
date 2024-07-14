@@ -26,7 +26,7 @@ const About: React.FC = () => {
                         <div className='text-center'>
                           <IonIcon className='fs-30' icon={heartCircleOutline} slot="end" />
                             <div className='ion-text-center'>
-                                <h3>Who we are</h3>
+                                <h3>Who are we?</h3>
                             </div>
                         </div>
                         <div>

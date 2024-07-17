@@ -142,50 +142,50 @@
         "price": 5799,
         "categories": ["Plant", "Tree"]
       },
-          {
-        "name": "Yellow Pandan”,
-        "image": "../assets/images/cultivations/yellowpandan.jpg",
-        "description": "Golden pandanus",
-        "price": 5799,
-        "categories": ["Plant", "Tree"]
-      },
-          {
-        "name": “Puyeng”,
-        "image": "../assets/images/cultivations/puyeng.jpg",
-        "description": "Ang Heng Ho",
-        "price": 5799,
-        "categories": ["Plant", "Tree"]
-      },
-          {
-        "name": “Blue Cypress",
+      {
+        "name": "Yellow Pandan",
+        "image": "../assets/images/cultivations/yellowpandan.jpg",
+        "description": "Golden pandanus",
+        "price": 5799,
+        "categories": ["Plant", "Tree"]
+        },
+        {
+        "name": "Puyeng",
+        "image": "../assets/images/cultivations/puyeng.jpg",
+        "description": "Ang Heng Ho",
+        "price": 5799,
+        "categories": ["Plant", "Tree"]
+        },
+        {
+        "name": "Blue Cypress",
         "image": "../assets/images/cultivations/bluecypress.jpg",
         "description": "Chamaecyparis pisifera 'Baby Blue'",
         "price": 5799,
         "categories": ["Plant", "Tree"]
       },
           {
-        "name": “Italian Cypress",
+        "name": "Italian Cypress",
         "image": "../assets/images/cultivations/italiancypress.jpg",
         "description": "Cupressus sempervirens",
         "price": 5799,
         "categories": ["Plant", "Tree"]
       },
           {
-        "name": “Rubber Tree Tineke",
+        "name": "Rubber Tree Tineke",
         "image": "../assets/images/cultivations/pinkei.jpg",
         "description": "Ficus elastica 'Tineke'",
         "price": 5799,
         "categories": ["Plant", "Tree"]
       },
           {
-        "name": “Silver Satin",
+        "name": "Silver Satin",
         "image": "../assets/images/cultivations/silversatin.jpg",
         "description": "Scindapsus Pictus 'Exotica'",
         "price": 5799,
         "categories": ["Plant", "Tree"]
       },
           {
-        "name": “Snow White,
+        "name": "Snow White",
         "image": "../assets/images/cultivations/snowwhite.jpg",
         "description": "Aglaonema",
         "price": 5799,
